@@ -4,26 +4,37 @@
 
 This repository is intended to provide you quickstarts for frequently requested scenarios.
 
-## How to a solution?
+## How to add a solution?
 
-As a team member you have access to create a new solution by cloning this repository and following the **Storage Conventions** for the lab.
-
-The initial skeleton of the lab should include the `skeleton/README.md` solution file.
- 
-
-## Git repository best practices 
-
-> Some of the best practices and recommendations described in this guide in terms of *Git Branching Strategy* are based from this model: [http://nvie.com/posts/a-successful-git-branching-model/](http://nvie.com/posts/a-successful-git-branching-model/)
-
+As a team member you have access to create a new solution by cloning this repository.
 The branching strategy recommended to maintain your solutions follows a three-stages and tagging approach.
 
-In order to create a new branch, you can run the following command:
+For example, to create a new solution called **smart-city** that is part of the **iot** solution catalog:
+Create a new branch using following command:
 
-     # git branch -b NAME_OF_BRANCH
+     # git branch -b solution/iot-smart-city
 
-In order to jump into your new branch, you can run the command:
+Check-out your new branch by running the command:
 
-     # git checkout NAME_OF_BRANCH
+     # git checkout solution/iot-smart-city
+         
+A typical folder structure for a solution called **smart-city** falling under the **iot** category is below:
+
+```
+|-- solutions
+            |-- iot
+                  |-- smart-city
+                                |-- README.md
+                                |-- images
+                                |-- scripts
+```
+
+Copy a **solution-README.md** file in your new folder as **README.md** which will contain keywords, description and instructions on how to deploy the solution.
+
+If you want to link to images in your **README.md** file, add them in the **images** folder.
+
+If your solution has ARM templates and/or scripts to automate the deployment, add them to the **scripts** folder. Make sure to update the **Deploy to Azure** button URL to point to your **azuredeploy.json** file in this case.
+   
 
 ## Contributing
 
