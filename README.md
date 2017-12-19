@@ -4,6 +4,27 @@
 
 This repository is intended to provide you quickstarts for frequently requested scenarios.
 
+## How to a solution?
+
+As a team member you have access to create a new solution by cloning this repository and following the **Storage Conventions** for the lab.
+
+The initial skeleton of the lab should include the `skeleton/README.md` solution file.
+ 
+
+## Git repository best practices 
+
+> Some of the best practices and recommendations described in this guide in terms of *Git Branching Strategy* are based from this model: [http://nvie.com/posts/a-successful-git-branching-model/](http://nvie.com/posts/a-successful-git-branching-model/)
+
+The branching strategy recommended to maintain your solutions follows a three-stages and tagging approach.
+
+In order to create a new branch, you can run the following command:
+
+     # git branch -b NAME_OF_BRANCH
+
+In order to jump into your new branch, you can run the command:
+
+     # git checkout NAME_OF_BRANCH
+
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
