@@ -13,11 +13,15 @@ For example, to create a new solution called **smart-city** that is part of the 
 
 Create a new branch using following command:
 
-     # git branch -b solution/iot-smart-city
+```
+git branch -b solution/iot-smart-city
+```
 
 Check-out your new branch by running the command:
 
-     # git checkout solution/iot-smart-city
+```
+git checkout solution/iot-smart-city
+```
          
 A typical folder structure for a solution called **smart-city** falling under the **iot** category is below:
 
