@@ -10,6 +10,7 @@ As a team member you have access to create a new solution by cloning this reposi
 The branching strategy recommended to maintain your solutions follows a three-stages and tagging approach.
 
 For example, to create a new solution called **smart-city** that is part of the **iot** solution catalog:
+
 Create a new branch using following command:
 
      # git branch -b solution/iot-smart-city
