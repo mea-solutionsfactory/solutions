@@ -29,5 +29,7 @@ Because customers "own" the entire platform, they can install it in their on-pre
 For quick demo, you can also run OpenShift Test Drive. This provisions a temporary (4 hours) environment that doesn't need a subscription.
 
 [Run OpenShift Test Drive on Azure](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/redhat.openshift-container-platform?tab=Overview)
+
 [Deploy OpenShift Container Platform on Azure](https://github.com/Microsoft/openshift-container-platform/)
+
 [Deploy OpenShift Container Platform on Azure from the Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/redhat.openshift-container-platform?tab=Overview)
