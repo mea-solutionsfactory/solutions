@@ -19,7 +19,7 @@ az group create -n votingRG -l westeurope
 ## Create the Kubernetes cluster
 
 ```
-az aks create -g votingRG -n aksCluster -l westeurope --generate-ssh-keys
+az aks create -g votingRG -n aksCluster -l westeurope --kubernetes-version 1.8.1 --generate-ssh-keys
 ```
 
 On average, this takes about **10 minutes**.
@@ -27,7 +27,7 @@ On average, this takes about **10 minutes**.
 ## Retrieve the cluster credentials
 
 ```
-az aks get-credentials -n votingRG -n aksCluster
+az aks get-credentials -g votingRG -n aksCluster
 ```
 
 ## Deploy the application to Kubernetes
