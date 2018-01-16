@@ -13,13 +13,13 @@ Make sure to select the correct subscription if you have multiple subscriptions.
 ## Create the Resource Group
 
 ```
-az group create -n votingRG -l westeurope
+az group create -n votingRG -l eastus
 ```
 
 ## Create the Kubernetes cluster
 
 ```
-az aks create -g votingRG -n aksCluster -l westeurope --kubernetes-version 1.8.1 --generate-ssh-keys
+az aks create -g votingRG -n aksCluster -l eastus --kubernetes-version 1.8.1 --generate-ssh-keys
 ```
 
 On average, this takes about **10 minutes**.
