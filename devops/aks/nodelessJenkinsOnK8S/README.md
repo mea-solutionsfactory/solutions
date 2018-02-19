@@ -1,9 +1,11 @@
 Kubernetes Code Components Meetup
 =================================
+
+[Original Github Project](https://github.com/idanshahar/K8SCodeComponentsMeetup)
+
 Presentation
 ------------
 [Kubernetes Code Components](https://ptdrv.linkedin.com/dif0yfi)
-[Original Github Project](https://github.com/idanshahar/K8SCodeComponentsMeetup)
 
 Prerequisites
 ------------
@@ -19,21 +21,12 @@ Nodeless Jenkins on Kubernetes
 ------------------------------
 ### Set up Jenkins using helm
 
-[![asciicast](https://asciinema.org/a/OZqZ4kN3GeqSsj63DxhgiSgvD.png)](https://asciinema.org/a/OZqZ4kN3GeqSsj63DxhgiSgvD?size=small)
-
 ```
 # if this is the first time you are using helm, please uncomment the line below.
 
 # helm init
 
 helm install --name jenkins stable/jenkins
-
-# Alternatively, if you are having issues with the persistant volume class, you can still install jenkins from the chart provided in this repo:
-# helm install --name jenkins jenkins-helm/.
-# or to pass the storage class parameter:
-helm install --name jenkins stable/jenkins --set Persistence.StorageClass=default
-
-# the provided chart also Adds ACI plugin and Azure AD plugin (needs to be configured though)
 ```
 ### Get Jenkins admin password
 ```
