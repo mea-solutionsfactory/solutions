@@ -1,0 +1,33 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vmSku": {
+      "value": "Standard_A1"
+    },
+    "vmssName": {
+      "value": "VMSS-NAME"
+    },
+    "instanceCount": {
+      "value": 5
+    },
+    "adminUsername": {
+      "value": "adminuser"
+    },
+    "adminPassword": {
+      "value": "YourPassword"
+    },
+    "existingVnetResourceGroup": {
+      "value":"ExistingVnetResourceGroup"    
+    },
+    "existingVnetName": {
+      "value": "ExistingVnetName"
+    },
+    "existingSubnetName": {
+      "value": "ExistingSubnetName"
+    },
+    "artifactsLocation":{
+      "value": "${YOUR_ARTIFACT_URI}"
+    }
+  }
+}
